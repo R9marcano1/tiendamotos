@@ -1,5 +1,5 @@
 import "./globals.css";
-import { CartProvider } from "./context/CartContext";
+import { CartProvider } from "./context/CartContext.jsx";
 
 export const metadata = {
   title: "Distrito Motos",

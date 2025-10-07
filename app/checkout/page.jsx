@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabaseClient";
-import { useStore } from "@/context/StoreProvider";
+import { useStore } from "@/app/context/StoreProvider";
 
 export default function CheckoutPage() {
   const { cart } = useStore();
