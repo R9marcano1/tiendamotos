@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useStore } from "../app/context/StoreProvider";
+import { useCart } from "@/app/context/CartContext";
 
 export default function CartWidget() {
   const { cart } = useStore();
